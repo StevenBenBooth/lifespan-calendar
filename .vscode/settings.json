@@ -1,6 +1,9 @@
 {
   "python.languageServer": "None",
 
+  "ty.inlayHints.callArgumentNames": false,
+  "ty.inlayHints.variableTypes": true,
+
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.formatOnSave": true,
@@ -8,5 +11,5 @@
       "source.fixAll.ruff": "explicit",
       "source.organizeImports.ruff": "explicit"
     }
-}
+  }
 }
